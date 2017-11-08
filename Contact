@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Meredith Bristol - Contact Me</title>
+<link rel="stylesheet" type="text/css" href="my lovely css.css">
+</head>
+
+<body>
+
+<div class="mainbody">
+<ul class="navbar">
+  <a href="contact.html" class="block1">Contact Me</a>
+  <a href="education.html" class="block2">Education</a>
+  <a href="resumewebsite.html" class="block3">Employment History</a>
+  <a href="personal.html" class="block4">Personal Life</a>
+</ul>
+
+<h2>Contact Me</h2>
+
+<form action="/contact" method="post">
+	<div class="form">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="user_name">
+	</div>
+	<div class="form">
+		<label for="mail">Email:</label>
+		<input type="email" id="mail" name="user_mail">
+	</div>
+	<div class="form">
+		<label for="msg">Message:</label>
+		<textarea id="msg" name="user_message"></textarea>
+	</div>
+<div class="form">
+	<button type="submit">Let's do it!</button>
+</div>
+
+</form>
+
+<p><h2>Here are some other ways to contact me!</h2>
+<p><a href="http://www.linkedin.com/in/meredithbristol" target="_blank"><b>LinkedIn</b></a>
+<br><p><a href="mailto:mbristol@homfurniture.com?Subject=Hello%20there" target="_top"><b>Send me email</b></a>
+<br><p><b>Cell:<br></b> 651-210-2694
+<br><p><b>Carrier Pigeon:</b>
+<br>1000 W Franklin Ave, Apt C
+<br>Minneapolis, MN 55405
+
+<p>Many thanks,
+<br><img src="https://i.imgur.com/B4lawQa.png" alt="Signature" width="20%">
+</div>
+
+<footer>
+<p>Created by Meredith Bristol</br>
+November 1st, 2017</p>
+</footer>
+
+</body>
+
+
+
+</html>
